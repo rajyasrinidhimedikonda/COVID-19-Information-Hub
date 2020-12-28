@@ -1,0 +1,29 @@
+#page_wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+header {
+    background-color: DarkGrey;
+}
+nav {
+    height: 50px;
+}
+
+nav ul {
+    padding: 12.5px ;
+    display: flex;
+    list-style-type: none;
+}
+nav li a {
+    font-family: "Times New Roman";
+    color: Black;
+    font-size: 25px;
+}
+
+nav li a:hover {
+    border-bottom: 3px solid green;
+}
+nav li a:active{
+    border-bottom: 3px solid green;
+}
