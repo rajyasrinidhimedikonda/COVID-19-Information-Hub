@@ -3,6 +3,9 @@
     max-width: 1024px;
     margin: 0 auto;
 }
+body {
+  margin-bottom: 60px;
+}
 header {
     background-color: DarkGrey;
 }
@@ -13,17 +16,17 @@ nav {
 nav ul {
     padding: 12.5px ;
     display: flex;
+    justify-content: space-between;
     list-style-type: none;
 }
 nav li a {
     font-family: "Times New Roman";
-    color: Black;
+    color: Lime;
     font-size: 25px;
+    text-decoration: none;
+    
 }
 
 nav li a:hover {
-    border-bottom: 3px solid green;
-}
-nav li a:active{
-    border-bottom: 3px solid red;
+    color: Green;
 }
