@@ -25,5 +25,5 @@ nav li a:hover {
     border-bottom: 3px solid green;
 }
 nav li a:active{
-    border-bottom: 3px solid green;
+    border-bottom: 3px solid red;
 }
