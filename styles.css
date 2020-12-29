@@ -1,0 +1,46 @@
+#page_wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 7px;
+  text-align: left;
+  border-spacing: 2px;
+}
+
+h2{
+  font: italic;
+  font-size: 30px;
+}
+
+body {
+  margin-bottom: 60px;
+}
+header {
+    background-color: DarkGrey;
+}
+nav {
+    height: 50px;
+}
+
+nav ul {
+    padding: 12.5px ;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+nav li a {
+    font-family: "Times New Roman";
+    color: Lime;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+
+nav li a:hover {
+    color: Green;
+}
